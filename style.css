@@ -3,6 +3,11 @@ body{
     padding: 0px;
 }
 
+a{
+  text-decoration: none;
+  color: black;
+}
+
 .navbar{
     margin: 0px;
     padding: 0px;
@@ -42,6 +47,16 @@ body{
 .producto {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  border: 1px solid grey;
+  border-radius: 10px;
+  margin: 10px 5% 10px 5%;
+  background-color: coral;
+  align-items: center;
+}
+.car-producto {
+  display: flex;
+  flex-direction: row;
   justify-content: center;
   border: 1px solid grey;
   border-radius: 10px;
