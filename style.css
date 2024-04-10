@@ -41,20 +41,21 @@ body{
 
 .producto {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   border: 1px solid grey;
   border-radius: 10px;
   margin: 10px 5% 10px 5%;
   background-color: coral;
+  align-items: center;
 }
 
 .imagen-producto img {
   margin: 40px 10px;
   border: 2px solid black;
   border-radius: 15px;
-  max-width: 500px;
-  max-height: 500px;
+  max-width: 300px;
+  max-height: 300px;
 }
 
 .datos-producto {
@@ -102,3 +103,7 @@ body{
   max-width: 300px;
 }
 
+.stock{
+font-size: 10px;
+text-align: right;
+}
