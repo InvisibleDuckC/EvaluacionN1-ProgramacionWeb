@@ -122,3 +122,38 @@ a{
 font-size: 10px;
 text-align: right;
 }
+
+.formulario{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-cont{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: bisque;
+  width: 600px;
+  padding: 40px;
+  border-radius: 40px;
+}
+
+.form-cont div{
+  width: 500px;
+}
+
+.btn-cont{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.errores{
+  display: none;
+ /*  margin-top: -80px;
+  margin-left: 340px;
+  padding: 10px;
+  position: absolute; */
+}
